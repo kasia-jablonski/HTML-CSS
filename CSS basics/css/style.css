@@ -1,0 +1,140 @@
+/* https://validator.w3.org/#validate_by_input */
+
+/* Universal selector - *  */
+/*
+* {
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+*/
+
+/* type selectors */
+html {
+  font-size: 100%;  /* 100% = 16px on most screens */
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 1.5em;
+  color: yellow;
+}
+
+#heading {
+  color: white;
+}
+
+#heading {
+  color: black;
+}
+
+p {
+  color: olive;
+  font-size: 26px;
+}
+
+header {
+  background-color: #f60; /* this is the same as #ff6600 */
+  width: 80%;
+  margin-left: 10%;
+}
+
+#header-box {
+  width: 50%;
+  background-color: #33d549;
+}
+
+img {
+  width: 100%;
+}
+
+/* Descendat selector; paragraphs inside header*/
+header p {
+  background-color: snow;
+  border-bottom: 1px solid gray;
+}
+
+footer {
+  background-color: orange;
+}
+
+/* Link - links that hasn't been clicked*/
+a:link {
+  color: darkblue;
+  background-color: peachpuff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: seagreen;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* turn links white with orange background when they receive focus */
+a:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 165, 0, .5); /* adds 50% opacity */
+}
+
+
+ol li {
+  letter-spacing: 3px;
+  color: tomato;
+}
+
+ol li:first-child {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* IDs are unique, only one can have name. ID selector lets us assign a unique ID to an element. That way, we're able to specifically target an element based on its ID attribute.  */
+/* ID selectors */
+#education {
+  border: 3px solid red;
+}
+
+#education h3 {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  background-color: rgb(150, 200, 250);
+}
+
+#skill-list {
+  background-color: aliceblue;
+  padding: 36px;
+}
+
+/* class selectors */
+.top-skill {
+  font-weight: bold;
+  background-color: teal;
+  color: papayawhip;
+}
+
+.date {
+  border: 2px solid steelblue;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.special {
+  text-transform: uppercase;
+  background-color: papayawhip;
+}
+
+#proud {
+  font-size: 48px;
+/*  background-color: firebrick; - creates conflict with class*/
+}
+
+  
+
+
+
+  
